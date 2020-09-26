@@ -1,0 +1,155 @@
+#lobbyContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#lobbySettings {
+    margin: 10px;
+    padding: 20px 10px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#settingTitle {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 5px;
+}
+
+#settingForm {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sliders {
+    display: flex;
+}
+
+.labels {
+    margin: 10px 0;
+    display: block !important;
+}
+
+.rangeSlider {
+    -webkit-appearance: none;
+    border-radius: 15px;
+    outline: none;
+    overflow: hidden;
+    background: rgb(61, 61, 61);
+    height: 15px;
+    width: 100%;
+}
+
+.rangeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #00fd0a;
+    cursor: pointer;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: -407px 0 0 400px #00fd0a;
+}
+
+.sliderValue {
+    border: 1px solid black;
+    background-color: #00fd0a;
+    color: black;
+    border-radius: 10px;
+    width: 40px;
+}
+
+#languageSelect {
+    width: 100%;
+    background: rgb(61, 61, 61);
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+}
+
+#settingSubmit {
+    font-family: unset !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #00fd0a;
+    box-shadow: none;
+}
+
+/* --------------players------------------ */
+
+.lobbyPlayers {
+    position: relative;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 5px solid black;
+    margin: auto;
+}
+
+#joinedPlayers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 500px;
+}
+
+#editIcon {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background: white;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    filter: invert(100);
+    top: 67px;
+    left: 23px;
+    cursor: pointer;
+}
+
+#nameLabel {
+    text-transform: uppercase;
+}
+
+/* -------------DIALOG----------------- */
+.dialogContainer {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogInnerContainer {
+    background-color: black;
+}
+
+#submitEdit {
+    font-family: unset !important;
+    width: 340px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00fd0a;
+    border: none;
+    cursor: pointer;
+}

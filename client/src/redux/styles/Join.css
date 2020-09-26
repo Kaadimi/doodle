@@ -1,0 +1,154 @@
+.JoinContainer {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 340px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+#logoContainer {
+
+}
+
+#logoImage {
+    width: 300px;
+}
+
+#nameInput {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid white;
+    font-size: 1em;
+    color: white;
+    width: 340px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.CarouselContainer {
+    width: 330px;
+    margin: 5px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.CarouselSlide {
+    display: flex;
+    width: 100%;
+}
+
+.CarouselSlide img{
+    margin: 10px;
+    filter: grayscale(70%);
+}
+
+.JoinActions {
+    
+}
+
+#PlayButton {
+    font-family: unset !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(33, 190, 252);
+    border: none;
+    cursor: pointer;
+}
+
+#PrivateRoomButton {
+    font-family: unset !important;
+    letter-spacing: 1px;
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00fd0a;
+    border: none;
+    cursor: pointer;
+}
+
+#PrevButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#NextButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+button svg {
+    filter: invert();
+}
+
+.fieldMissing {
+    background-color: silver !important;
+    border: 1px solid red !important;
+}
+
+/* -----------ERROR--------------- */
+
+#errorContainer {
+    position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: arial, sans-serif;
+	overflow: hidden;
+}
+
+#errorContent {
+    position: relative;
+	width: 600px;
+	max-width: 100%;
+	margin: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+	padding: 60px 40px;
+	text-align: center;
+	box-shadow: -10px 10px 67px -12px rgba(255,255,255,0.2);
+}
+
+#errorContent p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.1rem;
+    color:  #00fd0a;
+}
+
+#homeButton {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    border: 3px solid #595959;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #21b2c5;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#homeButton img{
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+}
+
+#homeButton span {
+    vertical-align: middle;    
+}

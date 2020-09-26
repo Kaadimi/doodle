@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+  height: 100vh;
+  font-family: 'Acme', sans-serif;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
+  background-image: url("./redux/styles/space2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

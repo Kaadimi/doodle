@@ -1,0 +1,162 @@
+.players {
+    position: relative;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+    margin: auto;
+}
+
+#identifier {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    background: black;
+    position: absolute;
+    top: 22px;
+    left: 16px;
+}
+
+#adminCrown {
+    width: 40px;
+    height: 40px;
+    filter: invert(100);
+}
+
+#miniAdminCrown {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -5px;
+    filter: invert(100);
+    background: black;
+    border-radius: 40%;
+    padding: 3px;
+}
+
+.invertColor {
+    filter: grayscale(100) !important;
+}
+
+#playerIcon {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#playerScore {
+    position: absolute;
+    left: -10px;
+    min-width: 20px;
+    min-height: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+    color: black; 
+}
+
+/* ---------------CHAT----------- */
+
+.chatLog {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.messageName {
+    background-color: rgb(155, 196, 231);
+    max-height: 1.6em;
+    border-radius: 30px;
+    width: auto;
+    color: black;
+    font-size: 0.8em;
+    padding: 2px 5px;
+}
+
+.messageText {
+    width: 80%;
+    letter-spacing: 0;
+    padding: 2px 5px;
+    float: left;
+    font-size: 1em;
+    word-wrap: break-word;
+}
+
+.chatForm {
+    display: flex;
+    border: 2px solid #EBECF1;
+    background: white;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.chatInput {
+    width: 80%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    margin: 0;
+    color: black;
+    border: none;
+    font-size: 1em;
+}
+
+.sendButton {
+    width: 20%;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.5em;
+}
+
+/* ---------infoBar---------------- */
+
+#infoContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+#timer {
+    position: relative;
+    left: 49px;
+    bottom: 8px;
+    height: 65px;
+    width: 65px;
+    margin: auto;
+    filter: hue-rotate(45deg);
+}
+
+#time {
+    margin-top: 3px;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hiddenWord{
+    align-self: center;
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+.letters {
+    margin: 2px;
+    border-bottom: 1px solid white;
+}

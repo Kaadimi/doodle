@@ -1,0 +1,71 @@
+#canvasTools {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.toolButtons {
+    display: flex;
+    background: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: auto;
+    margin: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.toolButtons img {
+    width: 25px;
+    height: 25px;
+    filter: invert();
+}
+
+#colorPicker {
+    margin: 5px 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+#active {
+    background-color: rgb(42, 182, 163);
+}
+
+#widthSelector {
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+#lineWidth {
+    cursor: pointer;
+    justify-self: center;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    margin: 5px auto;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+button, input {
+    outline: none;
+}
+
+#divider {
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid white;
+}
